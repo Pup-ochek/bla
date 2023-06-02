@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel ="stylesheet" href="index_style.css">
+
+
+<head>
+    <script src="QRCreator.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    
+</head>
+<body>
+
+    <div class="container">
+        <div class="background">
+            <title>Qr-code generation</title>
+            <div class="dropdown">
+                <div class="text">
+                <button class="dropbtn">
+        
+                    Menu
+                </button>
+                </div>
+                <div class="dropdown-content">
+                  <a href="index.html">Генерация</a>
+                  <a href="history.html">О Qr-code</a>
+                </div>
+            </div>
+              
+            <div id = "podzkazka" class = "podzkazka"> <img src = "info.svg">
+                    
+                
+                    <div class="podzkazka_content">
+                        <p>Имя - напишите имя QR-кодов </p>
+                        <p>Количество - напишите количество Qr-кодов</p>
+                        <p>Характирестики - напишите информацию для QR-кода</p>
+
+                        <p>Сгенирировать - нажмите для просмотра Qr-кода</p>
+                        <p>Скачать - нажмите для скачки всех QR-кодов</p>
+                    </div>
+                
+
+            </div>
+
+            <style>
+                @font-face {
+                    font-family: 'Russo One';
+                    src: url(RussoOne.ttf);
+                }
+            </style>    
+            <div class="name"></div>
+            
+            <input id="name" type="text" size="15" maxlength="20" placeholder="Имя" class="name_kub"></input>
+            
+            <input id="num" class="name_kol" type="text" name="name" size="15" maxlength="20" placeholder="Количество">
+            <textarea id="text" resize="none"  class="name_info" type="text" name="text" size="15" maxlength="10000" placeholder="Характирестики"></textarea>
+
+           
+            
+
+           <style>
+               #cin{
+            overflow: auto;
+            overflow-x: hidden;
+        }
+        
+        #cin::-webkit-scrollbar-track{
+            background-color: #e2e2e2;
+        }
+        
+        #cin::-webkit-scrollbar{
+            width: 7px;
+            background-color: #F5F5F5;
+        }
+        
+        #cin::-webkit-scrollbar-thumb{
+            border-radius: 100px;
+            background-color: #545454;
+        }
+                </style>
+            
+            <div class = "Qr-fon" id="canvas"></div>
+            
+                <button id = "button_gen" class="button_gen">Сгенирировать</button>
+          
+                
+                
+        
+                <button id="button_download" type="button" class="button_download">Скачать</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="genscript.js">
+    
+
+        
+    
+
+   
+       
+    </script>        
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+.container_body{
+    max-width: 100%;
+
+    padding-bottom: 5%;
+ 
+    
+}
+
+.container_zag{
+    
+    
+    width: 35%;
+    max-width: 100%;
+    
+    word-wrap: break-word;
+
+
+    font-family: 'Russo One';
+font-style: normal;
+font-weight: 400;
+font-size: 46px;
+line-height: 42px;
+
+color: #FFFFFF;
+
+}
+
+.container_menu{
+    max-width: 100%;
+    max-height: 10%;
+    background-color: white;
+}
+
+.container_text{
+    margin-left: 25%;
+    width: 50%;
+    font-family: 'Russo One';
+    color: #FFFFFF;
+    word-wrap: break-word;
+    font-size: 130%;
+}
+
+.container_foto{
+    margin-left: 7%;
+    width: 50%;
+}
+
+/*меню */
+.dropdown {
+    position: absolute;
+    display: inline-block;
+    left: 25px;
+    top: 43px;
+    position: fixed;
+
+}
+
+.text{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Russo One';
+}
+
+.dropbtn {
+    position: absolute;
+    background-color: transparent;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    border: none;
+    border-radius: 7px;
+    font-family: 'Russo one';
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: 120px;
+    top: 30px;
+    color: white;
+    font-family: 'Russo one';
+
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Russo One';
+    font-size: 20px;
+}
+
+.dropdown-content a:hover {background-color:transparent;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #46145a;}
+
+img{
+    border-radius: 5%;
+    box-shadow: 0 10px #666;
+}
+
+html, body {
+    width: 100%;
+    height:100%;
+    margin: 0%;
+    
+  }
+  
+  body {
+      background: linear-gradient(-45deg,#2b2beb, #CB218E,#6617CB);
+      background-size: 400% 2000%;
+      animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }

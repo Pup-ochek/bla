@@ -1,0 +1,14 @@
+<div id = "podzkazka" class = "podzkazka"> <img src = "info.svg">
+                    
+                <div class="dropdown_podscazka">
+                    <div class="podzkazka_content">
+                        <p>Имя - напишите имя QR-кодов </p>
+                        <p>Количество - напишите количество Qr-кодов</p>
+                        <p>Характирестики - напишите информацию для QR-кода</p>
+
+                        <p>Сгенирировать - нажмите для просмотра Qr-кода</p>
+                        <p>Скачать - нажмите для скачки всех QR-кодов</p>
+                    </div>
+                </div>
+
+            </div>
